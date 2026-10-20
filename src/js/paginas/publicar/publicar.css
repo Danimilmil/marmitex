@@ -1,0 +1,38 @@
+.publicar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--esp-3);
+}
+
+.publicar-quem {
+    color: var(--cor-tinta-suave);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--esp-3);
+}
+
+.form-linha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--esp-3);
+}
+
+.form-campo {
+    display: flex;
+    flex: 1 1 8rem;
+    flex-direction: column;
+    gap: var(--esp-1);
+    min-width: 0;
+    font-size: 0.9rem;
+}
+
+.form-aviso {
+    font-weight: 600;
+}
+
+.form-aviso:empty {
+    display: none;
+}

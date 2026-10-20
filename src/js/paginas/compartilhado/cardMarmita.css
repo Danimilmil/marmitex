@@ -1,0 +1,45 @@
+.lista-cards {
+    display: flex;
+    flex-direction: column;
+    gap: var(--esp-3);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--esp-2);
+    padding: var(--esp-3);
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+    background-color: var(--cor-superficie);
+}
+
+.card-topo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--esp-3);
+}
+
+.card-titulo {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.card-preco {
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+}
+
+.card-marmitaria {
+    color: var(--cor-tinta-suave);
+    font-size: 0.9rem;
+}
+
+.card-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--esp-2);
+    color: var(--cor-tinta-suave);
+    font-size: 0.9rem;
+}

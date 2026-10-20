@@ -1,0 +1,21 @@
+:root {
+    /* cores */
+    --cor-fundo: #fffaf0;
+    --cor-superficie: #ffffff;
+    --cor-tinta: #2b2118;
+    --cor-tinta-suave: #6b5d50;
+    --cor-borda: #e6dccb;
+    --cor-destaque: #c2410c;
+    --cor-sobre-destaque: #ffffff;
+
+    /* espaçamento */
+    --esp-1: 4px;
+    --esp-2: 8px;
+    --esp-3: 16px;
+    --esp-4: 24px;
+    --esp-5: 32px;
+
+    /* forma e texto */
+    --raio: 10px;
+    --fonte: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}

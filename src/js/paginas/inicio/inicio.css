@@ -1,0 +1,31 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+    gap: var(--esp-4);
+}
+
+.inicio-pergunta {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.inicio-busca {
+    display: flex;
+    gap: var(--esp-2);
+}
+
+.inicio-input {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.inicio-categorias {
+    display: flex;
+    flex-direction: column;
+    gap: var(--esp-2);
+}
+
+.inicio-rotulo {
+    color: var(--cor-tinta-suave);
+}
